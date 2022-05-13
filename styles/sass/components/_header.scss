@@ -1,0 +1,124 @@
+.layout {
+}
+
+.header {
+  padding: 20px 20%;
+  &-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-img {
+      background-image: url("/img/logo_airius.png");
+      height: 68px;
+      width: 139px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &-content {
+      display: flex;
+      align-items: center;
+      &-phone {
+        display: flex;
+        align-items: center;
+        &-icon {
+          font-size: 18px;
+          color: $color-black;
+          margin-right: 10px;
+        }
+        &-number {
+          font-size: 18px;
+          color: $color-black;
+        }
+        margin-right: 10px;
+        &:hover {
+          cursor: pointer;
+        }
+        &:hover &-number,
+        &:hover &-icon {
+          color: $color-primary;
+        }
+      }
+      &-text {
+        padding: 10px 15px;
+        &:hover {
+          cursor: pointer;
+          background-color: $color-gray;
+        }
+      }
+      &-language {
+        display: flex;
+        align-items: center;
+        padding: 8px 15px;
+        &-img {
+          background-image: url("/img/england.jpg");
+          height: 25px;
+          width: 25px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 50%;
+          margin-right: 10px;
+        }
+        &-text {
+        }
+        &:hover {
+          cursor: pointer;
+          background-color: $color-gray;
+        }
+      }
+      &-search {
+        font-size: 18px;
+        margin-left: 15px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  &-bottom {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    &-item {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      margin-right: 10px;
+      padding: 15px 20px;
+      font-weight: 500;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $color-primary;
+        color: $color-white;
+        transition: 0.5s ease-in-out;
+      }
+    }
+    &-contacts {
+      display: flex;
+      align-items: center;
+      background-color: $color-primary;
+      padding: 15px 20px;
+      border-radius: 2px;
+      &-text {
+        font-size: 18px;
+        font-weight: 500;
+        color: $color-white;
+      }
+      &-icon {
+        font-size: 18px;
+        margin-left: 10px;
+        color: $color-white;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

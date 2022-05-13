@@ -1,0 +1,19 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/reset";
+@import "base/typography";
+
+@import "components/footer";
+@import "components/header";
+@import "components/slideshow";
+@import "components/category";
+@import "components/listproduct";
+@import "components/listcompany";
+@import "components/quote";
+
+@import "pages/category";
+@import "pages/home";
+@import "pages/product";

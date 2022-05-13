@@ -1,0 +1,14 @@
+html {
+  font-family: "Nunito", sans-serif;
+}
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+  width: 30px !important;
+  height: 30px !important;
+}

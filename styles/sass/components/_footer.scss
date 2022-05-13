@@ -1,0 +1,61 @@
+.footer {
+  &-about {
+    margin: 50px 20%;
+    display: flex;
+
+    &-col {
+      width: 25%;
+      // padding-right: 10px;
+      &-title {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 25px;
+      }
+      &-body {
+        font-size: 14px;
+        color: #696969;
+        line-height: 24px;
+        margin-bottom: 5px;
+      }
+      &-bodyes {
+        font-size: 14px;
+        color: #696969;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+        &-icon {
+          margin-right: 10px;
+        }
+        &-text {
+        }
+        &:hover {
+          cursor: pointer;
+          color: $color-primary;
+        }
+      }
+    }
+  }
+  &-copy {
+    background-color: #ededed;
+    height: 78px;
+    &-right {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 78px;
+      margin: auto 20%;
+      &-text {
+      }
+      &-group {
+        &-icon {
+          font-size: 18px;
+          margin-left: 30px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

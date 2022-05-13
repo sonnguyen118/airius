@@ -1,0 +1,16 @@
+.list-company {
+  margin: 50px 20%;
+  // overflow-x: scroll;
+
+  &-group {
+    // display: flex;
+    // flex-wrap: wrap;
+    // align-items: center;
+    &-img {
+      position: relative;
+      width: 139px;
+      height: 139px;
+      // margin-right: 30px;
+    }
+  }
+}
